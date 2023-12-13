@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+*{
+  background-color: rgb(206, 237, 227);
 }
+html{
+  font-size: 16px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  color: black;
+  background-color: blue;
+  height: 3rem;
   align-items: center;
+  
+  
+}
+.nav_main{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(105, 105, 179);
+  border-radius: .2rems;
+  
 }
-
-.App-link {
-  color: #61dafb;
+  
+.nav_element{
+  margin-left: .4rem;
+  margin-right: .4rem;
+  background-color: rgb(118, 118, 146);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Hero-section{
+  height: 30rem;
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+}
+.test_area{
+  background-color: brown;
+  height: 100%;
+  width: 60%;
+  margin-left: 0;
+}
+.image_area{
+  background-color: rgb(212, 0, 255);
+  height: 100%;
+  width: 40%;
+  margin-right: 0;
+}
+.skills{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill_element{
+  margin: .5rem;
+  width: 32%;
+  border: 2px solid black;
+  background-color: aqua;
+  height: 20rem;
+  border-radius: .4rem;
+}
+.footer{
+  height: 20rem;
+  background-color: bisque;
+  border: 4px solid black;
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.a{
+  height: 16rem;
+  width: 100%;
+  margin: 10px;
+  color: aliceblue;
+  border: 5px solid black;
+}
+#copyright{
+  margin-bottom: 0px;
+  height: 4rem;
+  border: 4 solid white;
+  margin: 2px;
+  color: blue;
 }
